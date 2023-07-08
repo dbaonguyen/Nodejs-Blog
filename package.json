@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbaonguyen/Nodejs-Blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "bao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbaonguyen/Nodejs-Blog/issues"
+  },
+  "homepage": "https://github.com/dbaonguyen/Nodejs-Blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
